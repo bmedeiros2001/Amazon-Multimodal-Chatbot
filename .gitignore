@@ -1,0 +1,4 @@
+my_vectorstore_exploded_v2/
+*.bin
+*.sqlite
+*.sqlite3
