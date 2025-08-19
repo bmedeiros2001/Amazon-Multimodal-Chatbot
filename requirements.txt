@@ -1,0 +1,19 @@
+streamlit==1.35.0
+openai==1.25.1
+langchain==0.2.1
+langchain-community==0.2.1
+langchain-openai==0.1.7
+langchain-chroma==0.1.1
+transformers==4.41.2
+torch==2.2.2
+torchvision==0.17.2
+safensors
+numpy==1.26.4
+Pillow==10.3.0
+pandas
+
+# Downgrading to match the old on-disk database format
+chromadb==0.3.26
+pydantic<2
+# Pinning a dependency of the old chromadb version for stability
+fastapi==0.95.2
